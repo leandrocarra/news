@@ -19,7 +19,7 @@ const Sexta09 = () => {
           Slug é uma pagina personalizada da empresa, onde a pessoa fisica se candidata a uma vaga aberta.
         </p>
         <ul className='itens'>
-          <li className='item'>* Cadas empresa tem uma pagina de slug propria</li>
+          <li className='item'>* Cadastro empresa tem uma pagina de slug propria</li>
         </ul>
         <div className='contentImage'>
           <img src={slug} alt='slug' />
@@ -92,7 +92,7 @@ const Sexta09 = () => {
         O avatar da pagina principal do candidato não estava sendo mostrado, resolvemos e agora o avatar está sendo mostrado
         </p>
         <ul className='itens'>
-          <li className='item'>* Avatar Pricipal</li>
+          <li className='item'>* Avatar Principal</li>
           <li className='item'>* Avatar no menu do topo</li>
         </ul>
       </div>
@@ -159,7 +159,7 @@ const Sexta09 = () => {
       </div>
       <div className='content'>
         <p className='description'>
-        O Numero de vagas abertas com o numero de vagas que erá mostrado na Home da empresa, estava divergente, resolvemos e agora os numeros estão corretos
+        O Numero de vagas abertas com o numero de vagas que era mostrado na Home da empresa, estava divergente, resolvemos e agora os numeros estão corretos
         </p>
       </div>
     </LayoutDefault>
