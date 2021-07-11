@@ -1,0 +1,67 @@
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: block;
+}
+.tags {
+  float: left;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.tag {
+  float: left;
+  padding: 8px 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.novo {
+  background-color: #4E84FF;
+}
+.melhoria {
+  background-color: #A86FE7;
+}
+.bug {
+  background-color: #00e676;
+  color: #000
+}
+.block {
+  background-color: #f50057;
+}
+.content {
+  clear: both;
+  overflow: hidden;
+}
+.description {
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.itens {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.item {
+  margin-bottom: 10px;
+}
+.contentImage {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  float: left;
+  margin-bottom: 20px;
+}
+.contentImage img{
+  width: 100%;
+}
+.accessInfo {
+  float: left;
+  clear: both;
+  line-height: 20px;
+}
+.accessInfo a{
+  color: #fff;
+  margin-left: 5px;
+  font-style: italic;
+}
