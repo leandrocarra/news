@@ -3,6 +3,7 @@ import React from 'react';
 import { useForm, Controller } from "react-hook-form";
 import { Checkbox, Input, TextareaAutosize } from "@material-ui/core";
 import { Input as AntdInput } from "antd";
+//import { Checkbox as AntdCheck } from "antd";
 
 import LayoutDefault from '../__layoutDefaut';
 import Header from '../../Components/Header';
@@ -18,6 +19,7 @@ const Painel = () => {
       <Header />
       <LayoutDefault>
         <form onSubmit={handleSubmit(onSubmit)}>
+          <label>Titulo</label>
           <Controller
             render={({ field }) => <Input {...field} />}
             name="firstName"
@@ -49,7 +51,15 @@ const Painel = () => {
             control={control}
             defaultValue=""
           />
-          
+
+          <label>Considerações</label>
+          <Controller
+            render={({ field }) => <Checkbox {...field} />}
+            name="lastName"
+            control={control}
+            defaultValue=""
+          />
+
           <input type="submit" />
         </form>
       </LayoutDefault>
