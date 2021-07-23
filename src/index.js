@@ -5,7 +5,9 @@ import './assets/styles/reset.css';
 import './assets/styles/pattern.css';
 import App from './App';
 
+import Painel from './Pages/painel';
 import Sexta09 from './Pages/09072021';
+import Sexta23 from './Pages/23072021';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +15,8 @@ ReactDOM.render(
       <Switch>
         <Route path="/" exact component={App} />
         <Route path="/09072021" component={Sexta09} />
+        <Route path="/23072021" component={Sexta23} />
+        <Route path="/painel" component={Painel} />
         <Route path="/*" component={App} />
       </Switch>
     </ BrowserRouter>
