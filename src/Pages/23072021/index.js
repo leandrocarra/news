@@ -229,20 +229,6 @@ const Sexta23 = () => {
           </p>
         </div>
       </LayoutDefault>
-
-      <LayoutDefault>
-        <h2 className='title'>Ajuste em email de Cadastro</h2>
-        <div className='tags'>
-          <span className='tag bug'>bug</span>
-        </div>
-        <div className='content'>
-          <p className='description'>
-            Antes era possível cadastrar e-mails com letra maiúscula. Gerando cadastros iguais e ruídos na base. <br />
-            Adicionada propriedade que coloca todos os caracteres com letras minusculas.
-          </p>
-        </div>
-      </LayoutDefault>
-
       
       <LayoutDefault>
         <h2 className='title'>Horario na agenda</h2>
