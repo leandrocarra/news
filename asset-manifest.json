@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/news/static/css/main.5ea58b25.chunk.css",
-    "main.js": "/news/static/js/main.20aa9d85.chunk.js",
-    "main.js.map": "/news/static/js/main.20aa9d85.chunk.js.map",
+    "main.js": "/news/static/js/main.b7f21865.chunk.js",
+    "main.js.map": "/news/static/js/main.b7f21865.chunk.js.map",
     "runtime-main.js": "/news/static/js/runtime-main.c39b6313.js",
     "runtime-main.js.map": "/news/static/js/runtime-main.c39b6313.js.map",
     "static/js/2.a3921268.chunk.js": "/news/static/js/2.a3921268.chunk.js",
@@ -11,6 +11,7 @@
     "static/css/main.5ea58b25.chunk.css.map": "/news/static/css/main.5ea58b25.chunk.css.map",
     "static/js/2.a3921268.chunk.js.LICENSE.txt": "/news/static/js/2.a3921268.chunk.js.LICENSE.txt",
     "static/media/calendly.5119f7b8.jpg": "/news/static/media/calendly.5119f7b8.jpg",
+    "static/media/carrousel.c64bad13.png": "/news/static/media/carrousel.c64bad13.png",
     "static/media/cursos.a44bcb6a.png": "/news/static/media/cursos.a44bcb6a.png",
     "static/media/employee_slug.b413ba3b.png": "/news/static/media/employee_slug.b413ba3b.png",
     "static/media/pin.da88f3fa.jpg": "/news/static/media/pin.da88f3fa.jpg",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.c39b6313.js",
     "static/js/2.a3921268.chunk.js",
     "static/css/main.5ea58b25.chunk.css",
-    "static/js/main.20aa9d85.chunk.js"
+    "static/js/main.b7f21865.chunk.js"
   ]
 }
