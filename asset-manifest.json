@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/news/static/css/main.9c1029a1.chunk.css",
-    "main.js": "/news/static/js/main.529d901f.chunk.js",
-    "main.js.map": "/news/static/js/main.529d901f.chunk.js.map",
+    "main.css": "/news/static/css/main.5ea58b25.chunk.css",
+    "main.js": "/news/static/js/main.20aa9d85.chunk.js",
+    "main.js.map": "/news/static/js/main.20aa9d85.chunk.js.map",
     "runtime-main.js": "/news/static/js/runtime-main.c39b6313.js",
     "runtime-main.js.map": "/news/static/js/runtime-main.c39b6313.js.map",
-    "static/js/2.d4bc82d5.chunk.js": "/news/static/js/2.d4bc82d5.chunk.js",
-    "static/js/2.d4bc82d5.chunk.js.map": "/news/static/js/2.d4bc82d5.chunk.js.map",
+    "static/js/2.a3921268.chunk.js": "/news/static/js/2.a3921268.chunk.js",
+    "static/js/2.a3921268.chunk.js.map": "/news/static/js/2.a3921268.chunk.js.map",
     "index.html": "/news/index.html",
-    "static/css/main.9c1029a1.chunk.css.map": "/news/static/css/main.9c1029a1.chunk.css.map",
-    "static/js/2.d4bc82d5.chunk.js.LICENSE.txt": "/news/static/js/2.d4bc82d5.chunk.js.LICENSE.txt",
+    "static/css/main.5ea58b25.chunk.css.map": "/news/static/css/main.5ea58b25.chunk.css.map",
+    "static/js/2.a3921268.chunk.js.LICENSE.txt": "/news/static/js/2.a3921268.chunk.js.LICENSE.txt",
+    "static/media/calendly.5119f7b8.jpg": "/news/static/media/calendly.5119f7b8.jpg",
+    "static/media/cursos.a44bcb6a.png": "/news/static/media/cursos.a44bcb6a.png",
+    "static/media/employee_slug.b413ba3b.png": "/news/static/media/employee_slug.b413ba3b.png",
+    "static/media/pin.da88f3fa.jpg": "/news/static/media/pin.da88f3fa.jpg",
+    "static/media/ponto_eletronico.b12ffa6a.png": "/news/static/media/ponto_eletronico.b12ffa6a.png",
+    "static/media/pop_resultado_entrevista.24edfbf1.png": "/news/static/media/pop_resultado_entrevista.24edfbf1.png",
     "static/media/senhas.79684e1d.jpg": "/news/static/media/senhas.79684e1d.jpg",
     "static/media/slug.13067d9a.jpg": "/news/static/media/slug.13067d9a.jpg",
+    "static/media/slug_restaurante.371a1ac7.png": "/news/static/media/slug_restaurante.371a1ac7.png",
     "static/media/worc.f8e7d4bb.png": "/news/static/media/worc.f8e7d4bb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c39b6313.js",
-    "static/js/2.d4bc82d5.chunk.js",
-    "static/css/main.9c1029a1.chunk.css",
-    "static/js/main.529d901f.chunk.js"
+    "static/js/2.a3921268.chunk.js",
+    "static/css/main.5ea58b25.chunk.css",
+    "static/js/main.20aa9d85.chunk.js"
   ]
 }
