@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
       marginRight: '10px',
       cursor: 'pointer',
       marginBottom: '10px',
+      position: 'relative',
       '& a': {
         borderRadius: '20px',
         float: 'left',
@@ -35,6 +36,16 @@ const useStyles = makeStyles((theme) => ({
       }
     }
   },
+  lastUpdate:{
+    backgroundColor: 'green',
+    borderRadius: '40%',
+    padding: '5px',
+    position: 'absolute',
+    top: '-10px',
+    color: '#fff',
+    right: '0',
+    fontSize: '10px'
+  }
 }))
 
 const Menu = () => {
@@ -46,6 +57,10 @@ const Menu = () => {
       </li>
       <li>
         <Link to="/23072021">23/07/2021</Link>
+      </li>
+      <li>
+        <span className={classes.lastUpdate}>New</span>
+        <Link to="/23092021">23/09/2021</Link>
       </li>
     </ul>
   );
