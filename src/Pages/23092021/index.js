@@ -11,6 +11,7 @@ import pagination from './pagination.jpg';
 import orderby from './orderby.jpg';
 import perfil from './perfil.jpg';
 import health from './health.jpg';
+import externa from './externa.jpg';
 
 const Sexta2309 = () => {
   return (
@@ -153,8 +154,11 @@ const Sexta2309 = () => {
         </div>
         <div className='content'>
           <p className='description'>
-            Agora quando criamos uma vaga podemos ou não compartilhar vaga automaticamente com a nossa base de conhecimento externa?
+            Agora quando criamos uma vaga podemos ou não compartilhar vaga automaticamente com a nossa base de conhecimento externa.
           </p>
+        </div>
+        <div className='contentImage'>
+          <img src={externa} alt='externa' />
         </div>
         <div className='accessInfo'>
           <p>
