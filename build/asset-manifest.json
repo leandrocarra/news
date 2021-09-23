@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/news/static/css/main.db7decd4.chunk.css",
-    "main.js": "/news/static/js/main.986f6143.chunk.js",
-    "main.js.map": "/news/static/js/main.986f6143.chunk.js.map",
+    "main.js": "/news/static/js/main.27ca8d12.chunk.js",
+    "main.js.map": "/news/static/js/main.27ca8d12.chunk.js.map",
     "runtime-main.js": "/news/static/js/runtime-main.c39b6313.js",
     "runtime-main.js.map": "/news/static/js/runtime-main.c39b6313.js.map",
     "static/js/2.996a07e4.chunk.js": "/news/static/js/2.996a07e4.chunk.js",
@@ -17,7 +17,11 @@
     "static/media/cursos.a44bcb6a.png": "/news/static/media/cursos.a44bcb6a.png",
     "static/media/employee_slug.b413ba3b.png": "/news/static/media/employee_slug.b413ba3b.png",
     "static/media/filiais.aa6047ef.jpg": "/news/static/media/filiais.aa6047ef.jpg",
+    "static/media/health.549af012.jpg": "/news/static/media/health.549af012.jpg",
     "static/media/map.596cea3a.jpg": "/news/static/media/map.596cea3a.jpg",
+    "static/media/orderby.5c062503.jpg": "/news/static/media/orderby.5c062503.jpg",
+    "static/media/pagination.b9b00937.jpg": "/news/static/media/pagination.b9b00937.jpg",
+    "static/media/perfil.4aae7852.jpg": "/news/static/media/perfil.4aae7852.jpg",
     "static/media/pin.da88f3fa.jpg": "/news/static/media/pin.da88f3fa.jpg",
     "static/media/ponto_eletronico.b12ffa6a.png": "/news/static/media/ponto_eletronico.b12ffa6a.png",
     "static/media/pop_resultado_entrevista.24edfbf1.png": "/news/static/media/pop_resultado_entrevista.24edfbf1.png",
@@ -32,6 +36,6 @@
     "static/js/runtime-main.c39b6313.js",
     "static/js/2.996a07e4.chunk.js",
     "static/css/main.db7decd4.chunk.css",
-    "static/js/main.986f6143.chunk.js"
+    "static/js/main.27ca8d12.chunk.js"
   ]
 }

@@ -249,7 +249,7 @@ const Sexta2309 = () => {
       </LayoutDefault>
 
       <LayoutDefault>
-        <h2 className='title'> Como ficamos um tempo sem atualizar o maitre, na parte de bugs, vamos colocar uma lista com o titulo do bug. <br/>  <br/>
+        <h2 className='title'> Como ficamos um tempo sem atualizar o maître, na parte de bugs, vamos colocar uma lista com o titulo do bug. <br/>  <br/>
         Nas proximas versões voltaremos com os detalhes do que causou o bug e como foi corrigido em detalhes.</h2>
         <div className='tags'>
           <span className='tag bug'>bug</span>
