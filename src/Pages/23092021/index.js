@@ -217,7 +217,7 @@ const Sexta2309 = () => {
         </div>
         <div className='content'>
           <p className='description'>
-            Adicionamos um pin vermelhor representando filial no mapa
+            Adicionamos um pin vermelho representando filial no mapa
           </p>
         </div>
         <div className='contentImage'>
