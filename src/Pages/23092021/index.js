@@ -7,6 +7,10 @@ import avaliacao from './avaliacao.jpg';
 import filiais from './filiais.jpg';
 import map from './map.jpg';
 import atributos from './atributos.jpg';
+import pagination from './pagination.jpg';
+import orderby from './orderby.jpg';
+import perfil from './perfil.jpg';
+import health from './health.jpg';
 
 const Sexta2309 = () => {
   return (
@@ -29,6 +33,94 @@ const Sexta2309 = () => {
           <p>
             Está pagina pode ser acessada na opcao processo seletivo na pagina da empresa. 
             <a href='https://app.worc.com.br/processo-seletivo'>https://app.worc.com.br/processo-seletivo/</a>
+          </p>
+        </div>
+      </LayoutDefault>
+
+      <LayoutDefault>
+        <h2 className='title'>Busca Ativa</h2>
+        <div className='tags'>
+          <span className='tag melhoria'>melhoria</span>
+        </div>
+        <div className='content'>
+          <p className='description'>
+            Agora os candidatos aparecem seguindo uma ordenação e não mais por quem se cadastrou primeiro. <br /><br />
+            A ordenação é:<br />
+            1 - Pontos de provas<br />
+            2 - Ultima vez que se logou<br />
+            3 - Ultima vez que modificou o perfil
+          </p>
+        </div>
+        <div className='contentImage'>
+          <img src={orderby} alt='orderby' />
+        </div>
+        <div className='accessInfo'>
+          <p>
+            Está pagina pode ser acessada na opcao busca ativa na pagina da empresa. 
+            <a href='https://app.worc.com.br/busca'>https://app.worc.com.br/busca</a>
+          </p>
+        </div>
+      </LayoutDefault>
+
+      <LayoutDefault>
+        <h2 className='title'>Home de Candidato</h2>
+        <div className='tags'>
+          <span className='tag melhoria'>melhoria</span>
+        </div>
+        <div className='content'>
+          <p className='description'>
+            Agora o candidato tem como saber o quanto falta para ele ter um perfil campẽao, mostramos a ele, uma barra de Health Score(nome temporario)
+          </p>
+        </div>
+        <div className='contentImage'>
+          <img src={health} alt='health' />
+        </div>
+        <div className='accessInfo'>
+          <p>
+            Está pagina pode ser acessada na home do candidato. 
+            <a href='https://app.worc.com.br/inicio'>https://app.worc.com.br/inicio</a>
+          </p>
+        </div>
+      </LayoutDefault>
+
+      <LayoutDefault>
+        <h2 className='title'>Busca Ativa</h2>
+        <div className='tags'>
+          <span className='tag melhoria'>melhoria</span>
+        </div>
+        <div className='content'>
+          <p className='description'>
+            Temos agora dentro do mapa, a opção clicar no pin azul e ver o perfil do candidato, sendo possivel até, chama-lo para entrevista. 
+          </p>
+        </div>
+        <div className='contentImage'>
+          <img src={perfil} alt='perfil' />
+        </div>
+        <div className='accessInfo'>
+          <p>
+            Está pagina pode ser acessada na opcao busca ativa na pagina da empresa. 
+            <a href='https://app.worc.com.br/busca'>https://app.worc.com.br/busca</a>
+          </p>
+        </div>
+      </LayoutDefault>
+
+      <LayoutDefault>
+        <h2 className='title'>Vagas</h2>
+        <div className='tags'>
+          <span className='tag melhoria'>melhoria</span>
+        </div>
+        <div className='content'>
+          <p className='description'>
+            Separamos a quantidade de vagas que podem ser vistas em 5 e colocamos paginação, ganhando performance e usabilidade.
+          </p>
+        </div>
+        <div className='contentImage'>
+          <img src={pagination} alt='pagination' />
+        </div>
+        <div className='accessInfo'>
+          <p>
+            Está pagina pode ser acessada na opcao vagas na pagina da empresa. 
+            <a href='https://app.worc.com.br/vagas?page_size=5&page=1'>https://app.worc.com.br/vagas/</a>
           </p>
         </div>
       </LayoutDefault>
@@ -157,8 +249,8 @@ const Sexta2309 = () => {
       </LayoutDefault>
 
       <LayoutDefault>
-        <h2 className='title'> Como ficamos um tempo sem atualizar o maitre, na parte de bugs, vamos colocar uma lista com o titulo do bug,
-        nas proximas versões voltaremos com os detalhes.</h2>
+        <h2 className='title'> Como ficamos um tempo sem atualizar o maitre, na parte de bugs, vamos colocar uma lista com o titulo do bug. <br/>  <br/>
+        Nas proximas versões voltaremos com os detalhes do que causou o bug e como foi corrigido em detalhes.</h2>
         <div className='tags'>
           <span className='tag bug'>bug</span>
         </div>
@@ -228,7 +320,7 @@ const Sexta2309 = () => {
             <li>"Em cadastro de empresa, ticket medio vazio, está dando pau na hora de salvar"</li>
             <li>Erro ao gerar slug</li>
             <li>Adicionar Favicon da Worc no head do site</li>
-            <li>Bug,Adicionar favicon da Worc no head do Site</li>
+            <li>Adicionar favicon da Worc no head do Site</li>
             <li>Não exibir Curso: Bem Vindos à Z Deli para colaboradores da Z Deli - urgente</li>
             <li>O tempo em segundos do timer das provas está com comportamento errado</li>
             <li>Erro no timer da prova todas indo pra segunda question</li>
@@ -257,16 +349,16 @@ const Sexta2309 = () => {
             <li>"validar as experiências dos perfils, tem perfils faltando informações"</li>
             <li>ao clicar em sou colaborador esta obrigando colocar filial</li>
             <li>"No modal do candidato, em experiencias, alguns estao vindo com invalid date, ex: cadastro castejon e carra o menu vagas em candidato deve se chamar entrevistas"</li>
-            <li>Bug,6) Lista de Bugs (Castejon)</li>
+            <li>6) Lista de Bugs (Castejon)</li>
             <li>Sugestão,Segmentar equipe na nuvem por filial</li>
             <li>Endereço errado no perfil [ALL FRIES]</li>
             <li>"Cadastro de empresa feito direto pela plataforma não cria ""nome fantasia""."</li>
             <li>Informações de experiências passadas do candidato multiplicadas</li>
             <li>Datas e horários de vagas criadas não conseguem ser editados e/ou atualizados</li>
-            <li>Bug,Dados de CPF e RG apagam depois de preencher cadastro do candidato</li>
-            <li>Bug,"Bug ""CPF já utilizado"" na edição do perfil sem motivo aparente"</li>
-            <li>Bug,BUG cadastro do candidato - Não é possível fazer upload ou alterar a FOTO</li>
-            <li>Bug,"Falhas dentro do ""Buscar Candidatos"""</li>
+            <li>Dados de CPF e RG apagam depois de preencher cadastro do candidato</li>
+            <li>"Bug ""CPF já utilizado"" na edição do perfil sem motivo aparente"</li>
+            <li>BUG cadastro do candidato - Não é possível fazer upload ou alterar a FOTO</li>
+            <li>"Falhas dentro do ""Buscar Candidatos"""</li>
             <li>Página Slug com url sem o nome da empresa</li>
             <li>"Falhas no ""Buscar Candidatos"""</li>
             <li>Telefones inexistentes - PRECISAMOS DE UMA VALIDADOR DE TELEFONE NO CADASTRO DO CANDIDATO OU ENTÃO DEIXAR FIXO O +55 ANTES DO CAMPO DE TELEFONE</li>
@@ -282,14 +374,14 @@ const Sexta2309 = () => {
             <li>"Problema Base de dados nova - Tabela campany_calendarhours; variável ""candidate_id"""</li>
             <li>Fotos que estão registradas não estão sendo transferidas para a página Slug</li>
             <li>Não exibir Curso: Bem Vindos à Z Deli para colaboradores da Z Deli - urgente</li>
-            <li>Bug,Disponivel para trabalho retornando sempre false</li>
-            <li>Bug,Slug com problemas para mostrar vagas</li>
-            <li>Bug,Slug apresentando erro ao ser acessado trabalhe aqui</li>
-            <li>Bug,Title do app ausente</li>
-            <li>Bug,Css quebrando em cadastro-da-company quando acessado direto</li>
+            <li>Disponivel para trabalho retornando sempre false</li>
+            <li>Slug com problemas para mostrar vagas</li>
+            <li>Slug apresentando erro ao ser acessado trabalhe aqui</li>
+            <li>Title do app ausente</li>
+            <li>Css quebrando em cadastro-da-company quando acessado direto</li>
             <li>Correção de alguns layouts</li>
-            <li>Bug,Problema ao selecionar posicao em freela na agenda</li>
-            <li>Bug,Problema ao criar vaga freela direto na agenda</li>
+            <li>Problema ao selecionar posicao em freela na agenda</li>
+            <li>Problema ao criar vaga freela direto na agenda</li>
             <li>definir limitação de 3 posições para candidatos</li>
             <li>Perfil de candidato com erro nas data das experiências</li>
             <li>"Em modal de chamar para entrevista, q quantidade de candidatos, trava em 5"</li>
@@ -299,12 +391,25 @@ const Sexta2309 = () => {
             <li>BUG plataforma nova - Mensagem incorreta no pop up de convite</li>
             <li>Erro no timer de Provas</li>
             <li>Erro no layout de provas mobile</li>
-            <li>Bug,Bug total nas provas técnicas para os candidatos !</li>
+            <li>Bug total nas provas técnicas para os candidatos !</li>
             <li>Usuários Cadastrados via integração do Facebook estão vindo sem CPF e na hora de Editar o perfil não conseguem adicionar</li>
             <li>Solicitação,Agenda bom Bug para o cliente Cidadão do Mundo</li>
           </ul>
         </div>
       </LayoutDefault>
+
+      <LayoutDefault>
+        <h2 className='title'>Criação de vaga com link para o MEET ONLINE</h2>
+        <div className='tags'>
+          <span className='tag block'>bloqueado</span>
+        </div>
+        <div className='content'>
+          <p className='description'>
+            Devido a algumas imposições que o google faz com as contas, está bem dificil acharmos uma solução para isso, mas nosso time está trabalhando e pensando fora da caixa para que isso aconteça de um jeito ou de outro
+          </p> 
+        </div>    
+      </LayoutDefault>
+
 
     </>
   );
