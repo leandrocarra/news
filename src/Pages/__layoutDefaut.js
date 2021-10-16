@@ -3,27 +3,32 @@ import { makeStyles } from '@material-ui/core/styles';
  
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: '700px',
+    maxWidth: '1002px',
     margin: '0 auto',
     overflow: 'hidden',
     marginBottom: '40px'
   },
   left: {
     float: 'left',
-    width: '17%',
     paddingTop: '4px',
+    marginRight: '5px',
     color: '#CBCBCB',
     [theme.breakpoints.down('sm')]: {
      display: 'none'
     },
   },
   right: {
-    float: 'left',
+    margin: '0 auto',
     width: '83%',
     [theme.breakpoints.down('sm')]: {
       width: '100%',
       padding: '0 16px'
      },
+  },
+  date: {
+    textAlign: 'left',
+    marginBottom: '30px',
+    fontSize: '20px'
   }
 }))
 
@@ -31,10 +36,11 @@ const LayoutDefault = ({date, children}) => {
   const classes = useStyles();
   return (
     <section className={classes.root}>
-      <div className={classes.left}>
-        {date}
-      </div>
       <div className={classes.right}>
+        <div className={classes.date}>
+          {date}
+        </div>
+        
         {children}
       </div>
     </section>

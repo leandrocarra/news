@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   main: {
-    maxWidth: '570px',
+    maxWidth: '1002px',
     margin: '0 auto',
     padding:  '10px',
     overflow: 'hidden',
