@@ -32,7 +32,7 @@ const Sexta1510 = () => {
         </div>
         <div className='accessInfo'>
           <p>
-            Está pagina pode ser acessada na opcao processo vagas na pagina da empresa
+            Está pagina pode ser acessada na opção vagas na pagina da empresa
             <a href='https://app.worc.com.br/vagas/1648/candidatos'>https://app.worc.com.br/vagas/1648/candidatos/</a>
           </p>
         </div>
@@ -90,12 +90,6 @@ const Sexta1510 = () => {
         <div className='contentImage'>
           <img src={map} alt='map' />
         </div>
-        <div className='accessInfo'>
-          <p>
-            Está pagina pode ser acessada na home da empresa. 
-            <a href='https://app.worc.com.br/inicio'>https://app.worc.com.br/inicio/</a>
-          </p>
-        </div>
       </LayoutDefault>
       <LayoutDefault>
         <h2 className='title'>Vcs pediram e nós atendemos, criamos uma forma de simular "campanhas" nas paginas da slug usando #nomeDaCampanha </h2>
@@ -124,7 +118,7 @@ const Sexta1510 = () => {
         </div>
         <div className='content'>
           <p className='description'>
-            Quando maior o nivel, mais será facil da match com vagas!
+            Quando maior o nivel, mais será facil da worc fazer o match perfeito.
           </p>
         </div>
         <div className='contentImage'>
@@ -144,7 +138,7 @@ const Sexta1510 = () => {
         </div>
         <div className='content'>
           <p className='description'>
-            Quando maior o nivel, mais será facil da match com vagas!
+            Apesar de ser extensa, não foram colocadas todas, pois as tarefas mais urgentes, nem sempre tem tasks criadas.
           </p>
         </div>
         <div className='contentImage'>
