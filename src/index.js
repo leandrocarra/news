@@ -9,6 +9,7 @@ import Painel from './Pages/painel';
 import Sexta09 from './Pages/09072021';
 import Sexta23 from './Pages/23072021';
 import Sexta2309 from './Pages/23092021';
+import Sexta1510 from './Pages/15102021';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route path="/09072021" component={Sexta09} />
         <Route path="/23072021" component={Sexta23} />
         <Route path="/23092021" component={Sexta2309} />
+        <Route path="/15102021" component={Sexta1510} />
         <Route path="/painel" component={Painel} />
         <Route path="/*" component={App} />
       </Switch>
